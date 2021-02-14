@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS card;  
+CREATE TABLE card (  
+id INT AUTO_INCREMENT  PRIMARY KEY,  
+name VARCHAR(200) NOT NULL,  
+card_number VARCHAR(19) NOT NULL,  
+card_limit DOUBLE NOT NULL,  
+balance BIGINT NOT NULL,
+);  
